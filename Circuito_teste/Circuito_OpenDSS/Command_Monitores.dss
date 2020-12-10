@@ -1,0 +1,16 @@
+/*
+No modelo do MatLab não consta as mutuas e nem os dados do modelo pi,
+logo os mesmos não foram considerados na modelagem.
+*/
+
+Export monitors Monitor_Sub_1
+Plot monitor object= Monitor_Sub_1 channels=(1 3 5 )
+Export monitors Monitor_Sub_1
+Plot monitor object= Monitor_Sub_1 channels=(2 4 6 )
+
+Export monitors Monitor_Sub_2
+Plot monitor object= Monitor_Sub_2 channels=(1 3 5 )
+Export monitors Monitor_Sub_2
+Plot monitor object= Monitor_Sub_2 channels=(2 4 6 )
+
+

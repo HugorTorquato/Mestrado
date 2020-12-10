@@ -1,0 +1,238 @@
+/*
+Faz a leitura das curvas de Carga das cargas no sistema
+*/
+
+! Load_1
+New LoadShape.Load_1_A npts=3600 sinterval=1
+~ pmult=(file=Load_1_P_A.csv)
+~ qmult=(file=Load_1_Q_A.csv)
+New LoadShape.Load_1_B npts=3600 sinterval=1
+~ pmult=(file=Load_1_P_B.csv)
+~ qmult=(file=Load_1_Q_B.csv)
+New LoadShape.Load_1_C npts=3600 sinterval=1
+~ pmult=(file=Load_1_P_C.csv)
+~ qmult=(file=Load_1_Q_C.csv)
+
+! Load_3
+New LoadShape.Load_3_B npts=3600 sinterval=1
+~ pmult=(file=Load_3_P_B.csv)
+~ qmult=(file=Load_3_Q_B.csv)
+New LoadShape.Load_3_C npts=3600 sinterval=1
+~ pmult=(file=Load_3_P_C.csv)
+~ qmult=(file=Load_3_Q_C.csv)
+
+! Load_4
+New LoadShape.Load_4_A npts=3600 sinterval=1
+~ pmult=(file=Load_4_P_A.csv)
+~ qmult=(file=Load_4_Q_A.csv)
+New LoadShape.Load_4_B npts=3600 sinterval=1
+~ pmult=(file=Load_4_P_B.csv)
+~ qmult=(file=Load_4_Q_B.csv)
+New LoadShape.Load_4_C npts=3600 sinterval=1
+~ pmult=(file=Load_4_P_C.csv)
+~ qmult=(file=Load_4_Q_C.csv)
+
+! Load_5
+New LoadShape.Load_5_B npts=3600 sinterval=1
+~ pmult=(file=Load_5_P_B.csv)
+~ qmult=(file=Load_5_Q_B.csv)
+New LoadShape.Load_5_C npts=3600 sinterval=1
+~ pmult=(file=Load_5_P_C.csv)
+~ qmult=(file=Load_5_Q_C.csv)
+
+! Load_6
+New LoadShape.Load_6_A npts=3600 sinterval=1
+~ pmult=(file=Load_6_P_A.csv)
+~ qmult=(file=Load_6_Q_A.csv)
+New LoadShape.Load_6_B npts=3600 sinterval=1
+~ pmult=(file=Load_6_P_B.csv)
+~ qmult=(file=Load_6_Q_B.csv)
+New LoadShape.Load_6_C npts=3600 sinterval=1
+~ pmult=(file=Load_6_P_C.csv)
+~ qmult=(file=Load_6_Q_C.csv)
+
+! Load_8
+New LoadShape.Load_8_A npts=3600 sinterval=1
+~ pmult=(file=Load_8_P_A.csv)
+~ qmult=(file=Load_8_Q_A.csv)
+New LoadShape.Load_8_B npts=3600 sinterval=1
+~ pmult=(file=Load_8_P_B.csv)
+~ qmult=(file=Load_8_Q_B.csv)
+New LoadShape.Load_8_C npts=3600 sinterval=1
+~ pmult=(file=Load_8_P_C.csv)
+~ qmult=(file=Load_8_Q_C.csv)
+
+! Load_9
+New LoadShape.Load_9_A npts=3600 sinterval=1
+~ pmult=(file=Load_9_P_A.csv)
+~ qmult=(file=Load_9_Q_A.csv)
+New LoadShape.Load_9_B npts=3600 sinterval=1
+~ pmult=(file=Load_9_P_B.csv)
+~ qmult=(file=Load_9_Q_B.csv)
+New LoadShape.Load_9_C npts=3600 sinterval=1
+~ pmult=(file=Load_9_P_C.csv)
+~ qmult=(file=Load_9_Q_C.csv)
+
+! Load_10
+New LoadShape.Load_10_A npts=3600 sinterval=1
+~ pmult=(file=Load_10_P_A.csv)
+~ qmult=(file=Load_10_Q_A.csv)
+New LoadShape.Load_10_B npts=3600 sinterval=1
+~ pmult=(file=Load_10_P_B.csv)
+~ qmult=(file=Load_10_Q_B.csv)
+New LoadShape.Load_10_C npts=3600 sinterval=1
+~ pmult=(file=Load_10_P_C.csv)
+~ qmult=(file=Load_10_Q_C.csv)
+
+! Load_11
+New LoadShape.Load_11_A npts=3600 sinterval=1
+~ pmult=(file=Load_11_P_A.csv)
+~ qmult=(file=Load_11_Q_A.csv)
+New LoadShape.Load_11_B npts=3600 sinterval=1
+~ pmult=(file=Load_11_P_B.csv)
+~ qmult=(file=Load_11_Q_B.csv)
+New LoadShape.Load_11_C npts=3600 sinterval=1
+~ pmult=(file=Load_11_P_C.csv)
+~ qmult=(file=Load_11_Q_C.csv)
+
+! Load_13
+New LoadShape.Load_13_A npts=3600 sinterval=1
+~ pmult=(file=Load_13_P_A.csv)
+~ qmult=(file=Load_13_Q_A.csv)
+New LoadShape.Load_13_B npts=3600 sinterval=1
+~ pmult=(file=Load_13_P_B.csv)
+~ qmult=(file=Load_13_Q_B.csv)
+New LoadShape.Load_13_C npts=3600 sinterval=1
+~ pmult=(file=Load_13_P_C.csv)
+~ qmult=(file=Load_13_Q_C.csv)
+
+! Load_14
+New LoadShape.Load_14_A npts=3600 sinterval=1
+~ pmult=(file=Load_14_P_A.csv)
+~ qmult=(file=Load_14_Q_A.csv)
+New LoadShape.Load_14_B npts=3600 sinterval=1
+~ pmult=(file=Load_14_P_B.csv)
+~ qmult=(file=Load_14_Q_B.csv)
+New LoadShape.Load_14_C npts=3600 sinterval=1
+~ pmult=(file=Load_14_P_C.csv)
+~ qmult=(file=Load_14_Q_C.csv)
+
+! Load_15
+New LoadShape.Load_15_A npts=3600 sinterval=1
+~ pmult=(file=Load_15_P_A.csv)
+~ qmult=(file=Load_15_Q_A.csv)
+New LoadShape.Load_15_B npts=3600 sinterval=1
+~ pmult=(file=Load_15_P_B.csv)
+~ qmult=(file=Load_15_Q_B.csv)
+New LoadShape.Load_15_C npts=3600 sinterval=1
+~ pmult=(file=Load_15_P_C.csv)
+~ qmult=(file=Load_15_Q_C.csv)
+
+! Load_16
+New LoadShape.Load_16_A npts=3600 sinterval=1
+~ pmult=(file=Load_16_P_A.csv)
+~ qmult=(file=Load_16_Q_A.csv)
+New LoadShape.Load_16_B npts=3600 sinterval=1
+~ pmult=(file=Load_16_P_B.csv)
+~ qmult=(file=Load_16_Q_B.csv)
+New LoadShape.Load_16_C npts=3600 sinterval=1
+~ pmult=(file=Load_16_P_C.csv)
+~ qmult=(file=Load_16_Q_C.csv)
+
+! Load_17
+New LoadShape.Load_17_A npts=3600 sinterval=1
+~ pmult=(file=Load_17_P_A.csv)
+~ qmult=(file=Load_17_Q_A.csv)
+New LoadShape.Load_17_B npts=3600 sinterval=1
+~ pmult=(file=Load_17_P_B.csv)
+~ qmult=(file=Load_17_Q_B.csv)
+New LoadShape.Load_17_C npts=3600 sinterval=1
+~ pmult=(file=Load_17_P_C.csv)
+~ qmult=(file=Load_17_Q_C.csv)
+
+! Load_18
+New LoadShape.Load_18_A npts=3600 sinterval=1
+~ pmult=(file=Load_18_P_A.csv)
+~ qmult=(file=Load_18_Q_A.csv)
+New LoadShape.Load_18_B npts=3600 sinterval=1
+~ pmult=(file=Load_18_P_B.csv)
+~ qmult=(file=Load_18_Q_B.csv)
+New LoadShape.Load_18_C npts=3600 sinterval=1
+~ pmult=(file=Load_18_P_C.csv)
+~ qmult=(file=Load_18_Q_C.csv)
+
+
+! Load_19
+New LoadShape.Load_19_A npts=3600 sinterval=1
+~ pmult=(file=Load_19_P_A.csv)
+~ qmult=(file=Load_19_Q_A.csv)
+New LoadShape.Load_19_B npts=3600 sinterval=1
+~ pmult=(file=Load_19_P_B.csv)
+~ qmult=(file=Load_19_Q_B.csv)
+New LoadShape.Load_19_C npts=3600 sinterval=1
+~ pmult=(file=Load_19_P_C.csv)
+~ qmult=(file=Load_19_Q_C.csv)
+
+! Load_21
+New LoadShape.Load_21_B npts=3600 sinterval=1
+~ pmult=(file=Load_21_P_B.csv)
+~ qmult=(file=Load_21_Q_B.csv)
+New LoadShape.Load_21_C npts=3600 sinterval=1
+~ pmult=(file=Load_21_P_C.csv)
+~ qmult=(file=Load_21_Q_C.csv)
+
+! Load_23
+New LoadShape.Load_23_A npts=3600 sinterval=1
+~ pmult=(file=Load_23_P_A.csv)
+~ qmult=(file=Load_23_Q_A.csv)
+New LoadShape.Load_23_B npts=3600 sinterval=1
+~ pmult=(file=Load_23_P_B.csv)
+~ qmult=(file=Load_23_Q_B.csv)
+New LoadShape.Load_23_C npts=3600 sinterval=1
+~ pmult=(file=Load_23_P_C.csv)
+~ qmult=(file=Load_23_Q_C.csv)
+
+! Load_25
+New LoadShape.Load_25_A npts=3600 sinterval=1
+~ pmult=(file=Load_25_P_A.csv)
+~ qmult=(file=Load_25_Q_A.csv)
+New LoadShape.Load_25_B npts=3600 sinterval=1
+~ pmult=(file=Load_25_P_B.csv)
+~ qmult=(file=Load_25_Q_B.csv)
+New LoadShape.Load_25_C npts=3600 sinterval=1
+~ pmult=(file=Load_25_P_C.csv)
+~ qmult=(file=Load_25_Q_C.csv)
+
+! Load_26
+New LoadShape.Load_26_A npts=3600 sinterval=1
+~ pmult=(file=Load_26_P_A.csv)
+~ qmult=(file=Load_26_Q_A.csv)
+New LoadShape.Load_26_B npts=3600 sinterval=1
+~ pmult=(file=Load_26_P_B.csv)
+~ qmult=(file=Load_26_Q_B.csv)
+New LoadShape.Load_26_C npts=3600 sinterval=1
+~ pmult=(file=Load_26_P_C.csv)
+~ qmult=(file=Load_26_Q_C.csv)
+
+! Load_29
+New LoadShape.Load_29_A npts=3600 sinterval=1
+~ pmult=(file=Load_29_P_A.csv)
+~ qmult=(file=Load_29_Q_A.csv)
+New LoadShape.Load_29_B npts=3600 sinterval=1
+~ pmult=(file=Load_29_P_B.csv)
+~ qmult=(file=Load_29_Q_B.csv)
+New LoadShape.Load_29_C npts=3600 sinterval=1
+~ pmult=(file=Load_29_P_C.csv)
+~ qmult=(file=Load_29_Q_C.csv)
+
+! Load_31
+New LoadShape.Load_31_A npts=3600 sinterval=1
+~ pmult=(file=Load_31_P_A.csv)
+~ qmult=(file=Load_31_Q_A.csv)
+New LoadShape.Load_31_B npts=3600 sinterval=1
+~ pmult=(file=Load_31_P_B.csv)
+~ qmult=(file=Load_31_Q_B.csv)
+New LoadShape.Load_31_C npts=3600 sinterval=1
+~ pmult=(file=Load_31_P_C.csv)
+~ qmult=(file=Load_31_Q_C.csv)
+

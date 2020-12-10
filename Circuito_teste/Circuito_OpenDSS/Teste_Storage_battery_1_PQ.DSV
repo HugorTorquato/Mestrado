@@ -1,0 +1,44 @@
+SetProp, 1E050,   -1E050, 1E050, -1E050, 16777215, 16777215, 0, 4
+NoScales,
+Caption, "Storage.BATTERY_1 Powers"
+ChartCaption, "Storage.BATTERY_1 Powers"
+Rect, 100, 10, 200, 60
+Label, 150, 15, 0, "Storage.BATTERY_1", 0
+BoldLabel, 1
+Width, 7
+DataColor, 8421504
+Move, 0, 0
+Draw, 300, 0
+DataColor, 0
+Width, 3
+FStyle, 0
+Move, 0, 50
+Draw, 100, 50
+Center,  15, 52, 10, "0.00991627 + j"
+Center,  60, 52, 10, "-1.45812E-009 kVA"
+Center,  90, 52, 10, " ->"
+FStyle, 0
+Move, 0, 40
+Draw, 100, 40
+Center,  15, 42, 10, "0.00991869 + j"
+Center,  60, 42, 10, "-1.46501E-009 kVA"
+Center,  90, 42, 10, " ->"
+FStyle, 0
+Move, 0, 30
+Draw, 100, 30
+Center,  15, 32, 10, "0.00991882 + j"
+Center,  60, 32, 10, "-1.31716E-009 kVA"
+Center,  90, 32, 10, " ->"
+Width, 1
+FStyle, 0
+Move, 0, 20
+Draw, 100, 20
+Center,  15, 22, 10, "0 + j"
+Center,  60, 22, 10, "0 kVA"
+Center,  90, 22, 10, " ->"
+Width, 7
+Move, -5, 5
+Draw, -5, 55
+Center,  25, 60, 10, "N03"
+Caption, " Powers"
+PctRim, 5

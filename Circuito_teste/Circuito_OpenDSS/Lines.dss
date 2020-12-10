@@ -1,0 +1,42 @@
+/*
+Declaração das linhas do sistema, conforme informações descritas no arquivo Dados Sistema.csv
+*/
+
+
+New Line.Linha_01_02  Phases=3 Bus1=N01.1.2.3  Bus2=N02.1.2.3 LineCode=2_CU   Length=35.85  units=m 
+New Line.Linha_02_04  Phases=3 Bus1=N02.1.2.3  Bus2=N04.1.2.3 LineCode=2_CU   Length=23.03  units=m 
+New Line.Linha_04_03  Phases=3 Bus1=N04.1.2.3  Bus2=N03.1.2.3 LineCode=2/0_AL Length=6.68   units=m 
+New Line.Linha_04_05  Phases=3 Bus1=N04.1.2.3  Bus2=N05.1.2.3 LineCode=2_AL   Length=0.16   units=m 
+New Line.Linha_05_06  Phases=3 Bus1=N05.1.2.3  Bus2=N06.1.2.3 LineCode=2_AL   Length=31.17  units=m 
+New Line.Linha_06_08  Phases=3 Bus1=N06.1.2.3  Bus2=N08.1.2.3 LineCode=2_AL   Length=42.31  units=m 
+
+New Line.Linha_08_11  Phases=3 Bus1=N08.1.2.3  Bus2=S111.1.2.3 LineCode=2_AL   Length=26.16  units=m 
+New Line.s1   		  Phases=3 Bus1=S111.1.2.3 Bus2=N11.1.2.3  Switch=y  r1=1e-4 r0=1e-4 x1=0.000 x0=0.000 c1=0.000 c0=0.000 
+
+New Line.Linha_111_09 Phases=3 Bus1=N11.1.2.3  Bus2=N09.1.2.3 LineCode=2_AL   Length=6.67   units=m 
+New Line.Linha_11_12  Phases=3 Bus1=N11.1.2.3  Bus2=N12.1.2.3 LineCode=2_AL   Length=13.76  units=m
+New Line.Linha_12_14  Phases=3 Bus1=N12.1.2.3  Bus2=N14.1.2.3 LineCode=2_AL   Length=38.64  units=m
+New Line.Linha_11_13  Phases=3 Bus1=N11.1.2.3  Bus2=N13.1.2.3 LineCode=2_AL   Length=14.12  units=m
+New Line.Linha_13_18  Phases=3 Bus1=N13.1.2.3  Bus2=N18.1.2.3 LineCode=2_AL   Length=33.62  units=m
+New Line.Linha_18_22  Phases=3 Bus1=N18.1.2.3  Bus2=N22.1.2.3 LineCode=2_AL   Length=31.93  units=m
+
+New Line.Linha_22_24  Phases=3 Bus1=N22.1.2.3  Bus2=S124.1.2.3 LineCode=2_AL   Length=22.61  units=m 
+New Line.s3    		  Phases=3 Bus1=S124.1.2.3 Bus2=N24.1.2.3  Switch=y  r1=1e-4 r0=1e-4 x1=0.000 x0=0.000 c1=0.000 c0=0.000
+
+New Line.Linha_24_25  Phases=3 Bus1=N24.1.2.3  Bus2=N25.1.2.3 LineCode=2/0_AL Length=9.95   units=m
+New Line.Linha_25_26  Phases=3 Bus1=N25.1.2.3  Bus2=N26.1.2.3 LineCode=2_AL   Length=39.61  units=m
+New Line.Linha_24_23  Phases=3 Bus1=N24.1.2.3  Bus2=N23.1.2.3 LineCode=2/0_AL Length=2.74   units=m
+New Line.Linha_23_21  Phases=3 Bus1=N23.1.2.3  Bus2=N21.1.2.3 LineCode=2/0_AL Length=39.42  units=m
+New Line.Linha_21_20  Phases=3 Bus1=N21.1.2.3  Bus2=N20.1.2.3 LineCode=2/0_AL Length=0.02   units=m
+New Line.Linha_20_19  Phases=3 Bus1=N20.1.2.3  Bus2=N19.1.2.3 LineCode=2/0_AL Length=49.73  units=m
+New Line.Linha_19_17  Phases=3 Bus1=N19.1.2.3  Bus2=N17.1.2.3 LineCode=2/0_CU Length=22.95  units=m
+New Line.Linha_17_15  Phases=3 Bus1=N17.1.2.3  Bus2=N15.1.2.3 LineCode=2/0_CU Length=33.62  units=m
+
+
+New Line.Linha_19_16  Phases=3 Bus1=N19.1.2.3  Bus2=S116.1.2.3 LineCode=2/0_CU Length=22.34  units=m 
+New Line.s2    		  Phases=3 Bus1=S116.1.2.3  Bus2=N16.1.2.3  Switch=y  r1=1e-4 r0=1e-4 x1=0.000 x0=0.000 c1=0.000 c0=0.000
+
+New Line.Linha_16_10  Phases=3 Bus1=N16.1.2.3  Bus2=N10.1.2.3 LineCode=2/0_CU Length=33.64  units=m
+New Line.Linha_10_07  Phases=3 Bus1=N10.1.2.3  Bus2=N07.1.2.3 LineCode=2/0_CU Length=30.67  units=m
+New Line.Linha_07_04  Phases=3 Bus1=N07.1.2.3  Bus2=N04.1.2.3 LineCode=2/0_CU Length=14.95  units=m
+

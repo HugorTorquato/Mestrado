@@ -1,0 +1,7 @@
+/*
+Faz a leitura das curvas de Carga das cargas no sistema
+*/
+
+! Load teste
+New LoadShape.Load_1_A npts=3600 sinterval=1
+~ mult=(file=LoadShape1.csv)

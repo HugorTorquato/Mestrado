@@ -1,0 +1,14 @@
+
+
+
+New WireData.4_AL    radius=6.36  radunits=mm Rac=0.00142  Runits=m normamps=130
+New WireData.4_CU    radius=5.2   radunits=mm Rac=0.000943 Runits=m normamps=70
+
+New WireData.2_AL    radius=8.01  radunits=mm Rac=0.000893 Runits=m normamps=175
+New WireData.2_CU    radius=6.5   radunits=mm Rac=0.000599 Runits=m normamps=90
+
+New WireData.1/0_AL  radius=10.11 radunits=mm Rac=0.00056  Runits=m normamps=230
+New WireData.1/0_CU  radius=8.2   radunits=mm Rac=0.00056  Runits=m normamps=7130
+
+New WireData.2/0_AL  radius=11.34 radunits=mm Rac=0.00142  Runits=m normamps=265
+New WireData.2/0_CU  radius=9.3   radunits=mm Rac=0.000943 Runits=m normamps=170

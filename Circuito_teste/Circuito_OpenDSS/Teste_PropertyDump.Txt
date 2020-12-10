@@ -1,0 +1,101 @@
+
+New Transformer.sub
+! ENABLED
+! NPhases = 3
+! Nconds = 4
+! Nterms = 2
+! Yorder = 8
+! NodeRef = "nil"
+! Terminal Status: [C C C C C C C C ]
+! Terminal Bus Ref: [-1 -1 -1 -1 -1 -1 -1 -1 ]
+
+~ NumWindings=2
+~ phases=3
+~ Wdg=1 bus=sourcebus
+~ conn=delta
+~ kv=13.80
+~ kVA=75.0
+~ tap=1.000
+~ %R=0.01
+~ RdcOhms=0.1640323
+~ rneut=-1.000
+~ xneut=0.000
+~ Wdg=2 bus=n01
+~ conn=wye
+~ kv=0.22
+~ kVA=75.0
+~ tap=1.000
+~ %R=0.01
+~ RdcOhms=1.389618E-005
+~ rneut=-1.000
+~ xneut=0.000
+~ XHL=9.800
+~ XHT=35.000
+~ XLT=30.000
+~ X12=9.800
+~ X13=35.000
+~ X23=30.000
+~ Xscmatrix= "9.80 "
+~ NormMAxHkVA=83
+~ EmergMAxHkVA=113
+~ thermal=2.0
+~ n=0.8
+~ m=0.8
+~ flrise=65
+~ hsrise=15
+~ %loadloss=0
+~ %noloadloss=0
+~ normhkVA=82.5
+~ emerghkVA=112.5
+~ sub=n
+~ MaxTap=1.1
+~ MinTap=0.9
+~ NumTaps=32
+~ subname=
+~ %imag=3.1
+~ ppm_antifloat=1
+~ %Rs=[0.0076, 0.0076, ]
+~ bank=
+~ XfmrCode=
+~ XRConst=NO
+~ X12=9.8
+~ X13=35
+~ X23=30
+~ LeadLag=Lag
+~ WdgCurrents=0, (0), 0, (0), 0, (0), 0, (0), 0, (0), 0, (0), 
+~ Core=shell
+~ RdcOhms=1.389618E-005
+~ normamps=3.4516
+~ emergamps=4.7067
+~ faultrate=0.007
+~ pctperm=100
+~ repair=36
+~ basefreq=60
+~ enabled=true
+~ like=
+
+ZB:
+6.08E-009 
+3.92E-006 
+
+ZB: (inverted)
+395.6675 
+-255101.4271 
+
+Y_OneVolt
+395.6675 
+-395.6675 395.6675 
+-255101.4271 
+255101.4271 -255101.4271 
+
+Y_Terminal
+0.0000 
+-0.0000 0.0000 
+-0.0002 0.0002 0.0245 
+0.0002 -0.0002 -0.0245 0.0245 
+-0.0013 
+0.0013 -0.0013 
+0.1455 -0.1455 -15.8121 
+-0.1455 0.1455 15.8121 -15.8121 
+
+TermRef= 1 3 5 8 2 1 6 8 3 2 7 8 

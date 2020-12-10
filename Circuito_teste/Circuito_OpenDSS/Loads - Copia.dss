@@ -1,0 +1,174 @@
+/*
+Declaração das cargas do sistema, associadass as respectivas curvas de carga
+
+Arrumar as barras
+*/
+
+! Load_1
+New Load.Load_1A  Bus1=N01.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .56064  kVAR=  .2376  daily=Load_1_A
+New Load.Load_1B  Bus1=N01.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_1_B
+New Load.Load_1C  Bus1=N01.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_1_C
+
+! Load_3
+New Load.Load_3B  Bus1=N03.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  1.02784 kVAR=  .4356  daily=Load_3_B
+New Load.Load_3C  Bus1=N03.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  1.02784 kVAR=  .4356  daily=Load_3_C
+
+! Load_4
+New Load.Load_4A  Bus1=N04.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .56064  kVAR=  .2376  daily=Load_4_A
+New Load.Load_4B  Bus1=N04.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_4_B
+New Load.Load_4C  Bus1=N04.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_4_C
+
+! Load_5
+New Load.Load_5B  Bus1=N05.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .37376  kVAR=  .1584  daily=Load_5_B
+New Load.Load_5C  Bus1=N05.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .37376  kVAR=  .1188  daily=Load_5_C
+
+! Load_6
+New Load.Load_6A  Bus1=N06.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .4672   kVAR=  .198   daily=Load_6_A
+New Load.Load_6B  Bus1=N06.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .4672   kVAR=  .198   daily=Load_6_B
+New Load.Load_6C  Bus1=N06.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_6_C
+
+! Load_8
+New Load.Load_8A  Bus1=N07.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .18688  kVAR=  .792   daily=Load_8_A
+New Load.Load_8B  Bus1=N07.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .74752  kVAR=  .3168  daily=Load_8_B
+New Load.Load_8C  Bus1=N07.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .74752  kVAR=  .3168  daily=Load_8_C
+
+! Load_9
+New Load.Load_9A  Bus1=N08.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .56064  kVAR=  .2376  daily=Load_9_A
+New Load.Load_9B  Bus1=N08.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_9_B
+New Load.Load_9C  Bus1=N08.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_9_C
+
+! Load_10
+New Load.Load_10A Bus1=N09.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .4672   kVAR= .198    daily=Load_10_A
+New Load.Load_10B Bus1=N09.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .4672   kVAR= .198    daily=Load_10_B
+New Load.Load_10C Bus1=N09.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .4672   kVAR= .198    daily=Load_10_C
+
+! Load_11
+New Load.Load_11A Bus1=N10.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  1.4016  kVAR=  .594   daily=Load_11_A
+New Load.Load_11B Bus1=N10.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .74752  kVAR=  .3168  daily=Load_11_B
+New Load.Load_11C Bus1=N10.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .4672   kVAR=  .198   daily=Load_11_C
+
+! Load_13
+New Load.Load_13A Bus1=N12.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_13_A
+New Load.Load_13B Bus1=N12.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .37376  kVAR=  .1584  daily=Load_13_B
+New Load.Load_13C Bus1=N12.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .65408  kVAR=  .2772  daily=Load_13_C
+
+! Load_14
+New Load.Load_14A Bus1=N13.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .37376  kVAR=  .1584  daily=Load_14_A
+New Load.Load_14B Bus1=N13.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_14_B
+New Load.Load_14C Bus1=N13.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .84096  kVAR=  .3564  daily=Load_14_C
+
+! Load_15
+New Load.Load_15A Bus1=N14.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .56064  kVAR=  .2376  daily=Load_15_A
+New Load.Load_15B Bus1=N14.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_15_B
+New Load.Load_15C Bus1=N14.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .9344   kVAR=  .396   daily=Load_15_C
+
+! Load_16
+New Load.Load_16A Bus1=N15.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .9344   kVAR=  .396   daily=Load_16_A
+New Load.Load_16B Bus1=N15.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .37376  kVAR=  .1584  daily=Load_16_B
+New Load.Load_16C Bus1=N15.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .37376  kVAR=  .1584  daily=Load_16_C
+
+! Load_17
+New Load.Load_17A Bus1=N16.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .18688  kVAR=  .792   daily=Load_17_A
+New Load.Load_17B Bus1=N16.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .4672   kVAR=  .198   daily=Load_17_B
+New Load.Load_17C Bus1=N16.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .37376  kVAR=  .1584  daily=Load_17_C
+
+! Load_18
+New Load.Load_18A Bus1=N17.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .74752  kVAR=  .3168  daily=Load_18_A
+New Load.Load_18B Bus1=N17.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .9344   kVAR=  .396   daily=Load_18_B
+New Load.Load_18C Bus1=N17.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_18_C
+
+! Load_19
+New Load.Load_19A Bus1=N18.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .56064  kVAR=  .2376  daily=Load_19_A
+New Load.Load_19B Bus1=N18.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .9344   kVAR=  .396   daily=Load_19_B
+New Load.Load_19C Bus1=N18.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .130816 kVAR=  .5544  daily=Load_19_C
+
+! Load_21
+New Load.Load_21B Bus1=N20.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  1.12128 kVAR=  .4752  daily=Load_21_B
+New Load.Load_21C Bus1=N20.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032  kVAR=  .1188  daily=Load_21_C
+
+! Load_23
+New Load.Load_23A Bus1=N21.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  2.0557  kVAR=  .8712  daily=Load_23_A
+New Load.Load_23B Bus1=N21.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  1.4016  kVAR=  .594   daily=Load_23_B
+New Load.Load_23C Bus1=N21.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  1.49504 kVAR=  .6336  daily=Load_23_C
+
+! Load_25
+New Load.Load_25A Bus1=N22.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .65408 kVAR=  .2772   daily=Load_25_A
+New Load.Load_25B Bus1=N22.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .56064 kVAR=  .2376   daily=Load_25_B
+New Load.Load_25C Bus1=N22.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .56064 kVAR=  .2376   daily=Load_25_C
+
+! Load_26
+New Load.Load_26A Bus1=N23.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .28032 kVAR=  .1888   daily=Load_26_A
+New Load.Load_26B Bus1=N23.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .37376 kVAR=  .1584   daily=Load_26_B
+New Load.Load_26C Bus1=N23.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .18688 kVAR=  .792    daily=Load_26_C
+
+! Load_29
+New Load.Load_29A Bus1=N25.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .84096 kVAR=  .3564   daily=Load_29_A
+New Load.Load_29B Bus1=N25.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .84096 kVAR=  .3564   daily=Load_29_B
+New Load.Load_29C Bus1=N25.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .3564  kVAR=  .1584   daily=Load_29_C
+
+! Load_31
+New Load.Load_31A Bus1=N26.1 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .18688 kVAR=  .792    daily=Load_31_A
+New Load.Load_31B Bus1=N26.2 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .56064 kVAR=  .2376   daily=Load_31_B
+New Load.Load_31C Bus1=N26.3 Phases=1 Conn=Wye Model=1 kV= 0.22 kW=  .4672  kVAR=  .198    daily=Load_31_C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

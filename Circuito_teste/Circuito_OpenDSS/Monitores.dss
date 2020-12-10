@@ -1,0 +1,9 @@
+/*
+No modelo do MatLab não consta as mutuas e nem os dados do modelo pi,
+logo os mesmos não foram considerados na modelagem.
+*/
+
+New monitor.Monitor_Sub_1 element=transformer.Sub terminal=2  mode=0 ppolar=no
+
+New monitor.Monitor_Sub_2 element=transformer.Sub terminal=1  mode=1 ppolar=no
+

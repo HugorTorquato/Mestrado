@@ -1,0 +1,38 @@
+clear
+Set DefaultBaseFrequency=60
+
+
+
+
+New circuit.Teste !bus1=sourcebus basekv=13.8 pu=1.00 MVAsc3=1000 MVAsc1=1500
+~ basekv=13.8 pu=1.0001 phases=3 bus1=SourceBus  
+~ Angle=30                                                         ! advance angle 30 deg so result agree with published angle
+~ MVAsc3=20000 MVASC1=21000    ! stiffen the source to approximate inf source
+
+
+New Transformer.Sub Phases=3 Windings=2   XHL=(8 1000 /)
+~ wdg=1 bus=SourceBus.1.2.3  	 conn=delta  kv=13.8  kva=75   %r=(.5 1000 /)   XHT=(4 1000 /)
+~ wdg=2 bus=N01  .1.2.3          conn=wye    kv=0.22  kva=75   %r=(.5 1000 /)   XLT=(4 1000 /)
+
+/*
+New Transformer.Sub Phases=3 Windings=2   XHL=(3.16  1000 /)
+~ wdg=1 bus=SourceBus     conn=delta  kv=13.8  kva=75   %r=.76   XHT=(1.58 1000 /)
+~ wdg=2 bus=N01			  conn=wye    kv=0.22  kva=75   %r=.76   XLT=(1.58 1000 /)
+*/
+
+Redirect LineCodes.dss 				! Faz a leitura dos parâmetros dos cabos
+Redirect Lines.dss					! Faz a leiitura da declaração das linhas do sistema
+Redirect LoadShapes\LoadShapes.dss	! Faz a leitura das curvas de carga do sistema, serão utilizadas na criação das cargas
+Redirect Loads						! Declara as cargas do Sistema
+Redirect Monitores
+
+
+Set Voltagebases=[13.8, 0.22]
+calcv
+
+
+
+set mode = daily stepsize = 1 number = 3600
+solve
+
+!Redirect Command_Monitores
